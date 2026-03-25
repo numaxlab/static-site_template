@@ -1,1 +1,2 @@
-# static-site_template
+# Plantilla para sitios estáticos
+
