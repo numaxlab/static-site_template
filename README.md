@@ -12,6 +12,13 @@ Esta plantilla serve para crear e publicar sitios estáticos usando GitHub Pages
 
 ## Configuración dun dominio
 
-1. No dominio que se quere empregar, na configuración DNS, engadir un rexistro tipo **CNAME** ```www``` apuntando a ```numaxlab.github.io``` e outro tipo **ANAME** ```@``` apuntando a ```numaxlab.github.io```
+1. No dominio que se quere empregar, na configuración DNS, engadir un rexistro tipo **CNAME** ```www``` apuntando a ```numaxlab.github.io``` e outro tipo **ANAME** ```@``` apuntando a ```numaxlab.github.io```.
 2. En GitHub, vai ao repositorio → "Settings" → "Pages" → "Custom domain", escribe o dominio (con www) e dálle a gardar.
-3. Agarda uns minutos para que GitHub poida comprobar a configuración DNS e despois aparecerá nesta sección de configuración de GitHub Pages "Your site is live at https://dominio.gal"
+3. Agarda uns minutos para que GitHub poida comprobar a configuración DNS e despois aparecerá nesta sección de configuración de GitHub Pages "Your site is live at https://www.dominio.gal".
+4. Marcar "Enforce HTTPS".
+
+## Sobre o código
+
+* É obrigatorio que exista, como mínimo, o arquivo index.html na raíz do repositorio.
+* Pódense crear todas as páxinas html necesarias e enlazalas entre elas.
+* Pódese crear carpetas con imaxes, css, js e empregar os arquivos desde o html.
