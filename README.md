@@ -16,3 +16,9 @@ Esta plantilla serve para crear e publicar sitios estáticos usando GitHub Pages
 2. En GitHub, vai ao repositorio → "Settings" → "Pages" → "Custom domain", escribe o dominio e dálle a gardar.
 3. Agarda uns minutos para que GitHub poida comprobar a configuración DNS e despois aparecerá nesta sección de configuración de GitHub Pages "Your site is live at https://dominio.gal".
 4. Marcar "Enforce HTTPS".
+
+## Sobre o código
+
+* É obrigatorio que exista, como mínimo, o arquivo index.html na raíz do repositorio.
+* Pódense crear todas as páxinas html necesarias e enlazalas entre elas.
+* Pódese crear carpetas con imaxes, css, js e empregar os arquivos desde o html.
